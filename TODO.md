@@ -1,0 +1,21 @@
+### Diving into the new Java : Lambdas & Streams
+
+- [x] **lambda expression**
+    - [x] **Valid lambda expressions**
+    - [x] **(parameters) -> expression**
+    - [x] **(parameters) -> { statements; }**
+    - [x] **Functional interfaces**
+        - [ ] **Predicate<T>, Consumer<T>, Function<T, R>, Supplier<T> etc.**
+    - [x] **Special void-compatibility rule(list.add with Consumer & Predicate)**
+    - [x] **Type inference**
+    - [x] **Method references**
+- [ ] **Streams (Declarative, Composable, parallelizable)**
+    - [ ] **Collections v/s Streams**
+    - [ ] **Characterstics (Pipelining, Internal iterations)**
+    - [ ] **Stream Operations**
+        - [ ] **Intermediate (filter, map, limit,skip, distinct etc )**
+        - [ ] **Terminal (collect, sum, reduce, forEach, count)**
+        - [ ] **Collectors(groupingBy, partitionBy)**
+        - [ ] **Find & Match (short-circuit), Optional**
+        - [ ] **reduce (sum, max, min)**
+        - [ ] **Infinite Stream**
